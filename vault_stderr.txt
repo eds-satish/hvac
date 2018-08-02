@@ -1,0 +1,121 @@
+2018-08-02T12:14:26.219-0500 [DEBUG] storage.cache: creating LRU cache: size=0
+2018-08-02T12:14:26.219-0500 [DEBUG] cluster listener addresses synthesized: cluster_addresses=[127.0.0.1:8201]
+2018-08-02T12:14:26.741-0500 [INFO ] core: security barrier not initialized
+2018-08-02T12:14:26.744-0500 [INFO ] core: security barrier not initialized
+2018-08-02T12:14:26.746-0500 [INFO ] core: security barrier not initialized
+2018-08-02T12:14:26.746-0500 [INFO ] core: security barrier initialized: shares=5 threshold=3
+2018-08-02T12:14:26.746-0500 [DEBUG] core: cluster name not found/set, generating new
+2018-08-02T12:14:26.746-0500 [DEBUG] core: cluster name set: name=vault-cluster-d621282c
+2018-08-02T12:14:26.746-0500 [DEBUG] core: cluster ID not found, generating new
+2018-08-02T12:14:26.746-0500 [DEBUG] core: cluster ID set: id=5e1445cc-797e-f315-545f-98b8cb3327e7
+2018-08-02T12:14:26.746-0500 [INFO ] core: post-unseal setup starting
+2018-08-02T12:14:26.746-0500 [DEBUG] core: clearing forwarding clients
+2018-08-02T12:14:26.746-0500 [DEBUG] core: done clearing forwarding clients
+2018-08-02T12:14:26.758-0500 [INFO ] core: loaded wrapping token key
+2018-08-02T12:14:26.758-0500 [INFO ] core: successfully setup plugin catalog: plugin-directory=
+2018-08-02T12:14:26.758-0500 [INFO ] core: no mounts; adding default mount table
+2018-08-02T12:14:26.759-0500 [INFO ] core: successfully mounted backend: type=kv path=secret/
+2018-08-02T12:14:26.759-0500 [INFO ] core: successfully mounted backend: type=cubbyhole path=cubbyhole/
+2018-08-02T12:14:26.759-0500 [INFO ] core: successfully mounted backend: type=system path=sys/
+2018-08-02T12:14:26.759-0500 [INFO ] core: successfully mounted backend: type=identity path=identity/
+2018-08-02T12:14:26.760-0500 [INFO ] core: restoring leases
+2018-08-02T12:14:26.761-0500 [INFO ] rollback: starting rollback manager
+2018-08-02T12:14:26.761-0500 [DEBUG] expiration: collecting leases
+2018-08-02T12:14:26.761-0500 [DEBUG] expiration: leases collected: num_existing=0
+2018-08-02T12:14:26.761-0500 [INFO ] expiration: lease restore complete
+2018-08-02T12:14:26.761-0500 [DEBUG] identity: loading entities
+2018-08-02T12:14:26.761-0500 [DEBUG] identity: entities collected: num_existing=0
+2018-08-02T12:14:26.761-0500 [INFO ] identity: entities restored
+2018-08-02T12:14:26.761-0500 [DEBUG] identity: identity loading groups
+2018-08-02T12:14:26.761-0500 [DEBUG] identity: groups collected: num_existing=0
+2018-08-02T12:14:26.761-0500 [INFO ] identity: groups restored
+2018-08-02T12:14:26.761-0500 [INFO ] core: post-unseal setup complete
+2018-08-02T12:14:26.761-0500 [INFO ] core: root token generated
+2018-08-02T12:14:26.761-0500 [INFO ] core: pre-seal teardown starting
+2018-08-02T12:14:26.761-0500 [INFO ] core: cluster listeners not running
+2018-08-02T12:14:26.761-0500 [DEBUG] expiration: stop triggered
+2018-08-02T12:14:26.761-0500 [DEBUG] expiration: finished stopping
+2018-08-02T12:14:26.761-0500 [INFO ] rollback: stopping rollback manager
+2018-08-02T12:14:26.761-0500 [INFO ] core: pre-seal teardown complete
+2018-08-02T12:14:26.764-0500 [DEBUG] core: cannot unseal, not enough keys: keys=1 threshold=3 nonce=698e8492-c073-6451-3beb-7c726fca9fff
+2018-08-02T12:14:26.766-0500 [DEBUG] core: cannot unseal, not enough keys: keys=2 threshold=3 nonce=698e8492-c073-6451-3beb-7c726fca9fff
+2018-08-02T12:14:26.768-0500 [INFO ] core: vault is unsealed
+2018-08-02T12:14:26.768-0500 [INFO ] core: post-unseal setup starting
+2018-08-02T12:14:26.768-0500 [DEBUG] core: clearing forwarding clients
+2018-08-02T12:14:26.768-0500 [DEBUG] core: done clearing forwarding clients
+2018-08-02T12:14:26.768-0500 [INFO ] core: loaded wrapping token key
+2018-08-02T12:14:26.768-0500 [INFO ] core: successfully setup plugin catalog: plugin-directory=
+2018-08-02T12:14:26.769-0500 [INFO ] core: successfully mounted backend: type=kv path=secret/
+2018-08-02T12:14:26.769-0500 [INFO ] core: successfully mounted backend: type=system path=sys/
+2018-08-02T12:14:26.769-0500 [INFO ] core: successfully mounted backend: type=identity path=identity/
+2018-08-02T12:14:26.769-0500 [INFO ] core: successfully mounted backend: type=cubbyhole path=cubbyhole/
+2018-08-02T12:14:26.769-0500 [INFO ] core: restoring leases
+2018-08-02T12:14:26.769-0500 [INFO ] rollback: starting rollback manager
+2018-08-02T12:14:26.769-0500 [DEBUG] identity: loading entities
+2018-08-02T12:14:26.769-0500 [DEBUG] identity: entities collected: num_existing=0
+2018-08-02T12:14:26.769-0500 [DEBUG] expiration: collecting leases
+2018-08-02T12:14:26.769-0500 [DEBUG] expiration: leases collected: num_existing=0
+2018-08-02T12:14:26.769-0500 [INFO ] identity: entities restored
+2018-08-02T12:14:26.770-0500 [DEBUG] identity: identity loading groups
+2018-08-02T12:14:26.770-0500 [DEBUG] identity: groups collected: num_existing=0
+2018-08-02T12:14:26.770-0500 [INFO ] identity: groups restored
+2018-08-02T12:14:26.770-0500 [INFO ] core: post-unseal setup complete
+2018-08-02T12:14:26.770-0500 [INFO ] expiration: lease restore complete
+2018-08-02T12:14:27.252-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.270-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.285-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.296-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.312-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.321-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.343-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.351-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.367-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.374-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.396-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.406-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.422-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.435-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.453-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.462-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.482-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.493-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.509-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.520-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.544-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.554-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.573-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.584-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.604-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.612-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.628-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.650-0500 [DEBUG] auth.ldap.auth_ldap_a0e5d189: discovering user: userdn=dc=users,dc=hvac,dc=network filter=(uid=somedude)
+2018-08-02T12:14:27.654-0500 [DEBUG] auth.ldap.auth_ldap_a0e5d189: user binddn fetched: username=somedude binddn=uid=somedude,dc=users,dc=hvac,dc=network
+2018-08-02T12:14:27.655-0500 [DEBUG] auth.ldap.auth_ldap_a0e5d189: re-bound to original binddn
+2018-08-02T12:14:27.655-0500 [DEBUG] auth.ldap.auth_ldap_a0e5d189: compiling group filter: group_filter=(|(memberUid={{.Username}})(member={{.UserDN}})(uniqueMember={{.UserDN}}))
+2018-08-02T12:14:27.655-0500 [DEBUG] auth.ldap.auth_ldap_a0e5d189: searching: groupdn=ou=groups,dc=hvac,dc=network rendered_query=(|(memberUid=somedude)(member=uid=somedude,dc=users,dc=hvac,dc=network)(uniqueMember=uid=somedude,dc=users,dc=hvac,dc=network))
+2018-08-02T12:14:27.658-0500 [DEBUG] auth.ldap.auth_ldap_a0e5d189: groups fetched from server: num_server_groups=1 server_groups=[vault-users]
+2018-08-02T12:14:27.658-0500 [DEBUG] identity: creating a new entity: alias="mount_type:"ldap" mount_accessor:"auth_ldap_a0e5d189" name:"somedude" "
+2018-08-02T12:14:27.665-0500 [INFO ] expiration: revoked lease: lease_id=auth/ldap/login/somedude/14e625413fc0f5f3995eaebbd7e1e3777536dca7
+2018-08-02T12:14:27.666-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.683-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.689-0500 [DEBUG] auth.ldap.auth_ldap_9fdca23b: discovering user: userdn=dc=users,dc=hvac,dc=network filter=(uid=somedude)
+2018-08-02T12:14:27.690-0500 [DEBUG] auth.ldap.auth_ldap_9fdca23b: user binddn fetched: username=somedude binddn=uid=somedude,dc=users,dc=hvac,dc=network
+2018-08-02T12:14:27.690-0500 [DEBUG] auth.ldap.auth_ldap_9fdca23b: re-bound to original binddn
+2018-08-02T12:14:27.690-0500 [DEBUG] auth.ldap.auth_ldap_9fdca23b: compiling group filter: group_filter=(|(memberUid={{.Username}})(member={{.UserDN}})(uniqueMember={{.UserDN}}))
+2018-08-02T12:14:27.691-0500 [DEBUG] auth.ldap.auth_ldap_9fdca23b: searching: groupdn=ou=groups,dc=hvac,dc=network rendered_query=(|(memberUid=somedude)(member=uid=somedude,dc=users,dc=hvac,dc=network)(uniqueMember=uid=somedude,dc=users,dc=hvac,dc=network))
+2018-08-02T12:14:27.691-0500 [DEBUG] auth.ldap.auth_ldap_9fdca23b: groups fetched from server: num_server_groups=1 server_groups=[vault-users]
+2018-08-02T12:14:27.699-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.721-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.727-0500 [DEBUG] auth.ldap.auth_ldap_5fbec207: discovering user: userdn=dc=users,dc=hvac,dc=network filter=(uid=not_your_dude_pal)
+2018-08-02T12:14:27.727-0500 [DEBUG] auth.ldap.auth_ldap_5fbec207: error getting user bind DN: error="LDAP search for binddn 0 or not unique"
+2018-08-02T12:14:27.732-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.753-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.763-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.781-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.790-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.812-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.820-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.837-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.851-0500 [INFO ] core: disabled credential backend: path=ldap/
+2018-08-02T12:14:27.868-0500 [INFO ] core: enabled credential backend: path=ldap/ type=ldap
+2018-08-02T12:14:27.877-0500 [INFO ] core: disabled credential backend: path=ldap/

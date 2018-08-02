@@ -10,8 +10,8 @@ Usage
    usage/gcp
    usage/kubernetes_auth_method
    usage/approle_auth_method
-   usage/ldap_auth_method
    usage/github
+   usage/ldap
 
 
 Authenticate to different auth backends

@@ -1,5 +1,5 @@
 from unittest import TestCase
-
+import inspect
 from mock import MagicMock
 from parameterized import parameterized
 
@@ -49,7 +49,8 @@ class TestKv(utils.HvacIntegrationTestCase, TestCase):
     def test_getattr(self):
         mock_adapter = MagicMock()
         kv = Kv(adapter=mock_adapter, default_kv_version='1')
+        kv_read_secret_class, _, _ = inspect.getmro(kv.read_secret.im_class)
         self.assertEqual(
-            first=KvV1.read_secret.__class__,
-            second=kv.read_secret.__class__,
+            first=kv_read_secret_class,
+            second=KvV1,
         )
